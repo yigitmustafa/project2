@@ -1,0 +1,13 @@
+  var fibunacci = new int[20];
+            fibunacci [0]=0;
+            fibunacci [1]=1;
+           
+            Console.WriteLine( fibunacci[0]);
+            Console.WriteLine( fibunacci[1]);
+                                                     
+           for(int i =2 ; i< fibunacci.Length; i++)
+            {
+              fibunacci[i]=fibunacci[i-1] + fibunacci[i-2]; 
+           
+              Console.WriteLine( fibunacci[i]  );
+            } 
